@@ -38,6 +38,9 @@ struct ContentView: View {
         Button("Start Monitoring") {
             model.initiateMonitoring()
         }
+        Button("Block All") {
+            model.shieldAllApps()
+        }
     }
 }
 
